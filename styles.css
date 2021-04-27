@@ -1,12 +1,10 @@
 body{
 margin:0;
 padding:0;
-background:url(images/cup3.jpg);
-background-size:cover;
-background-position:center;
 font-family:sans-serif;
+margin:0 auto;
+width:960px;
 }
-
 .loginbox{
 	width:370px;
 	height:470px;
@@ -33,7 +31,6 @@ h1{
 	text-align:center;
 	font-size:22px;
 }
-
 .loginbox p{
 	margin:0;
 	padding:0;
@@ -87,16 +84,29 @@ nav li{
 	float:left;
 }
 nav a:link,nav a:visited{
-	background-color:brown;
-	color:white;
+	background-color:white;
+	color:black;
 	display:block;
-	width:200px;
+	width:160px;
 	text-align:center;
 	padding:10px 0;
+	text-decoration:none;
 }
 nav a:hover{
-	background-color:black;
+	background-color: #99ccff;
 }
 .click{
 	margin-left:20px;
+}
+header{
+	background-image:url("image/download.jpg");
+	height:100px;
+	margin-bottom:70px;
+}
+
+header h1{
+	color:#ffbf00;
+	margin-left:30px;
+	margin-top:30px;
+	font-size:50px;
 }
